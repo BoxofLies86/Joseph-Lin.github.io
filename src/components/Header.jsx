@@ -10,6 +10,7 @@ const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
 
+  //toggle navigation stuffs
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
@@ -20,6 +21,7 @@ const Header = () => {
     }
   };
 
+  //make page disappear after clicking
   const handleClick = () => {
     if (!openNavigation) return;
 
