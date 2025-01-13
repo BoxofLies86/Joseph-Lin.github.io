@@ -37,9 +37,9 @@ const Hero = () => {
           Joseph Lin
         </motion.h1>
         <div className="flex justify-center items-center w-full whitespace-nowrap text-[#FFFFFF] ">
-          <p className="md:text-3xl sm:text-3xl text-xl py-4">Specialty in</p>
+          <p className="md:text-3xl sm:text-3xl text-xl py-4">Passionate in</p>
           <ReactTyped
-            className="md:text-3xl sm:text-3xl text-xl md:pl-4 pl-2"
+            className="md:text-3xl sm:text-3xl text-xl md:pl-2 pl-1"
             strings={[
               "Computer Science",
               "Mathematics",
