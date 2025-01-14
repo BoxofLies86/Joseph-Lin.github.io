@@ -1,14 +1,13 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Button from "./components/Button";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero";
 import About from "./components/About";
 
 const App = () => {
   return (
     <>
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Header />
+      <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-purple-50 selection:text-purple-900">
+        <Navbar />
         <Hero />
         <About />
       </div>

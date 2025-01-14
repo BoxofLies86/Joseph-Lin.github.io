@@ -5,9 +5,11 @@ import profile from "../assets/profile.jpg";
 
 const About = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
-      <h1 className="my-20 text-center text-4xl font-medium">
-        About <span className="text-blue-400">Me</span>
+    <div className="h-screen border-b border-neutral-900 pb-4">
+      <h1 className="py-3 my-2 text-center text-4xl font-medium">
+        <div className="py-5">
+          About <span className="text-blue-400">Me</span>
+        </div>
       </h1>
 
       <div className="flex flex-wrap item-center">
@@ -20,7 +22,7 @@ const About = () => {
           <ZoomImage
             src={profile}
             alt="Profile Picture"
-            style={{ width: "500px", height: "550px" }}
+            style={{ width: "450px", height: "500px" }}
           />
         </motion.div>
 

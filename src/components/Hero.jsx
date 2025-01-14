@@ -22,12 +22,12 @@ const dropDownVariants = {
 const Hero = () => {
   return (
     <div
-      className="relative bg-fixed bg-cover bg-no-repeat bg-[10%_20%]"
+      className="relative h-screen bg-fixed bg-cover bg-no-repeat bg-[10%_20%]"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 225, 0.3), rgba(0, 0, 225, 0.3)), url(${background})`,
       }}
     >
-      <div className="max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+      <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center">
         <motion.h1
           variants={dropDownVariants}
           initial="hidden"
