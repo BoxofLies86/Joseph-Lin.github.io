@@ -5,14 +5,17 @@ import profile from "../assets/profile.jpg";
 
 const About = () => {
   return (
-    <div className="h-screen border-b border-neutral-900 pb-4">
-      <h1 className="py-3 my-2 text-center text-4xl font-medium">
-        <div className="py-5">
-          About <span className="text-blue-400">Me</span>
-        </div>
-      </h1>
+    <div className="min-h-screen border-b border-neutral-900 pb-4">
+      <motion.h1
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 1.5 }}
+        className="py-10 my-2 text-center text-4xl font-medium"
+      >
+        About <span className="text-blue-400">Me</span>
+      </motion.h1>
 
-      <div className="flex flex-wrap item-center">
+      <div className="flex flex-col items-center justify-center lg:flex-row lg:items-start lg:space-x-8">
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
@@ -33,7 +36,7 @@ const About = () => {
           className="lg:w-1/2 px-6 text-lg leading-relaxed"
         >
           <div className="flex justify-center lg:justify-start">
-            <div className="my-2 max-w-xl py-6">
+            <div className="relative top-3 max-w-xl">
               Hi, I'm Joseph Lin, a Computer Science major at NYU's Tandon
               School of Engineering, with minors in Business Studies and Math.
               My academic journey encompasses courses like Data Structures,
