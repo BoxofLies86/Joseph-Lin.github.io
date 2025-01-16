@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Glow from "../components/design/GlowTilt.jsx";
+import Glow from "./design/GlowTilt.jsx";
 import { SiMysql } from "react-icons/si";
 import { SiPython } from "react-icons/si";
 import { SiCplusplus } from "react-icons/si";

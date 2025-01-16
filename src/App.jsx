@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills.jsx";
+import Projects from "./components/Projects.jsx";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Hero />
         <About />
         <Skills />
+        <Projects />
       </div>
 
       <ButtonGradient />

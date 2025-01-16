@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className=" flex itemcenter justify-center gap-6 text-3xl">
           <motion.a
             whileHover={{ scale: 1.2, color: "#FFC107" }}
-            href="https://www.linkedin.com/in/joseph-lin-7908a7254/"
+            href="https://www.linkedin.com/in/josephlin86"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -27,7 +27,7 @@ const Navbar = () => {
 
           <motion.a
             whileHover={{ scale: 1.2, color: "#FFC107" }}
-            href="https://github.com/BoxofLies86"
+            href="https://github.com/JosephLin86"
             target="_blank"
             rel="noopener noreferrer"
           >
