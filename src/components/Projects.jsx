@@ -13,7 +13,7 @@ const Projects = () => {
       >
         Personal <span className="text-blue-500">Projects</span>
       </motion.h1>
-      <div>
+      <div className="sm:px-20 md:px-20">
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div

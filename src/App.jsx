@@ -8,7 +8,7 @@ import Projects from "./components/Projects.jsx";
 const App = () => {
   return (
     <>
-      <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-purple-50 selection:text-purple-900">
+      <div className="overflow-x-hidden mx-auto">
         <Navbar />
         <Hero />
         <About />
