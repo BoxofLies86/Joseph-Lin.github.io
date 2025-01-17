@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
+// import Experience from "./components/Experience.jsx";
+import Contact from "./components/Contact.jsx";
 
 const App = () => {
   return (
@@ -13,7 +15,9 @@ const App = () => {
         <Hero />
         <About />
         <Skills />
+        {/* <Experience /> */}
         <Projects />
+        <Contact />
       </div>
 
       <ButtonGradient />

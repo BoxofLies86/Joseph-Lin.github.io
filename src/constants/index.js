@@ -40,3 +40,43 @@ export const PROJECTS = [
     technologies: ["C++", "Assembly Language", "Memory Caching"],
   },
 ];
+
+export const EXPERIENCES = [
+  {
+    year: "something - something",
+    role: "Intern",
+    company: "Google",
+    description: "i was a great intern",
+    technologies: ["Python", "Go", "AWS", "Ansible"],
+  },
+  {
+    year: "something - something",
+    role: "Intern",
+    company: "Google",
+    description: "i was a great intern",
+    technologies: ["Python", "Go", "AWS", "Ansible"],
+  },
+  {
+    year: "something - something",
+    role: "Intern",
+    company: "Google",
+    description: "i was a great intern",
+    technologies: ["Python", "Go", "AWS", "Ansible"],
+  },
+  {
+    year: "something - something",
+    role: "Intern",
+    company: "Google",
+    description: "i was a great intern",
+    technologies: ["Python", "Go", "AWS", "Ansible"],
+  },
+];
+
+const email = "jcl9683@nyu.edu";
+
+export const CONTACT = {
+  address: "Brooklyn, NY & Seattle, WA",
+  phone: "+1 (614) 705 3937",
+  email: email,
+  emailHref: "mailto:" + email,
+};
